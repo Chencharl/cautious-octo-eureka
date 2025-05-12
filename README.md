@@ -74,6 +74,7 @@ Install via pip:
 
 ```bash
 pip install torch torchvision matplotlib tqdm pillow
+```
 
 👨‍💻 Authors
 
