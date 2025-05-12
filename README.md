@@ -10,7 +10,7 @@ This project investigates the vulnerability of deep convolutional image classifi
 |-------------|----------|------------|----------------|----------|
 | FGSM        | 0.02     | 1          | Whole image    | $L_\infty$ |
 | PGD         | 0.02     | 10         | Whole image    | $L_\infty$ |
-| Patch       | 0.3–0.4  | 30         | 32×32 patch    | $L_0$      |
+| Patch       | 0.4  | 30         | 32×32 patch    | $L_0$      |
 
 ## 🧾 Tasks
 
