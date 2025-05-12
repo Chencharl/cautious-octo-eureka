@@ -75,4 +75,7 @@ Install via pip:
 ```bash
 pip install torch torchvision matplotlib tqdm pillow
 
+👨‍💻 Authors
 
+Jiale Cai, Yinuo Wang, Chen Yang
+New York University — ECE 7123 Spring 2025
