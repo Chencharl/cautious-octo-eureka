@@ -52,8 +52,7 @@ See:
 - `patch_examples.png`
 
 ## 📁 Repository Structure
-Project3_code.ipynb ← Complete pipeline (baseline, FGSM, PGD, Patch, transfer)
-
+Project3_code.ipynb ← Complete pipeline (baseline, FGSM, PGD, Patch, transfer)\
 Adversarial_Test_Set_1/ ← FGSM adversarial samples
 Adversarial_Test_Set_2/ ← PGD adversarial samples
 Adversarial_Test_Set_3/ ← Patch adversarial samples
