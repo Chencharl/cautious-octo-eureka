@@ -51,7 +51,7 @@ See:
 - `pgd_examples.jpg`
 - `patch_examples.jpg`
 
-## 📁 Repository Structure
+## 📁 Files
 Project3_code.ipynb ← Complete pipeline (baseline, FGSM, PGD, Patch, transfer)\
 
 
