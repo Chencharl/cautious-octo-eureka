@@ -53,12 +53,6 @@ See:
 
 ## 📁 Repository Structure
 Project3_code.ipynb ← Complete pipeline (baseline, FGSM, PGD, Patch, transfer)\
-Adversarial_Test_Set_1/ ← FGSM adversarial samples\
-Adversarial_Test_Set_2/ ← PGD adversarial samples\
-Adversarial_Test_Set_3/ ← Patch adversarial samples\
-TestDataSet/ ← Clean evaluation subset\
-synset_to_label.json ← Synset-to-ImageNet label mapping\
-baseline_accuracy.txt ← Clean model Top-1 and Top-5\
 
 
 ## ⚙️ Dependencies
