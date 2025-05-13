@@ -36,7 +36,7 @@ This project investigates the vulnerability of deep convolutional image classifi
 | Attack Type | Top-1 Accuracy (%) | Top-5 Accuracy (%) |
 |-------------|---------------------|---------------------|
 | FGSM        | 40.00               | 69.60               |
-| PGD         | 32.20               | 68.20               |
+| PGD         | 32.00               | 68.40               |
 | Patch       | 61.60               | 85.60               |
 
 ## 🖼️ Visual Examples
@@ -47,9 +47,9 @@ Each attack generates three visual outputs per image:
 - Normalized perturbation (Noise)
 
 See:
-- `fgsm_examples.png`
-- `pgd_examples.png`
-- `patch_examples.png`
+- `fgsm_examples.jpg`
+- `pgd_examples.jpg`
+- `patch_examples.jpg`
 
 ## 📁 Repository Structure
 Project3_code.ipynb ← Complete pipeline (baseline, FGSM, PGD, Patch, transfer)\
