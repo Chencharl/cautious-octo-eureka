@@ -1,5 +1,3 @@
-# cautious-octo-eureka
-
 # Deep Learning Project 3: Adversarial Attacks and Transferability
 
 This project investigates the vulnerability of deep convolutional image classifiers to adversarial examples. We apply three popular attack methods—FGSM, PGD, and patch-based attacks—on a pre-trained ResNet-34 model and evaluate the transferability of these adversarial inputs to a different architecture: DenseNet-121.
