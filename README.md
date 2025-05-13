@@ -18,24 +18,25 @@ This project investigates the vulnerability of deep convolutional image classifi
 - **Task 4**: Perform localized patch attacks
 - **Task 5**: Test cross-model transfer to DenseNet-121
 
-## 📊 Accuracy Summary
+## 📊 Result Summary
 
 **ResNet-34:**
 
-| Attack Type | Top-1 Accuracy (%) | Top-5 Accuracy (%) |
-|-------------|---------------------|---------------------|
-| No Attack   | 75.39               | 93.87               |
-| FGSM        | 3.00                | 19.00               |
-| PGD         | 0.00                | 0.80                |
-| Patch       | 9.80                | 38.20               |
+| Attack Type | Top-1 Accuracy | Top-5 Accuracy | Drop     |
+|-------------|----------------|----------------|----------|
+| No Attack   | 75.39%         | 93.87%         | —        |
+| FGSM        | 3.00%          | 19.00%         | 96.02%   |
+| PGD         | 0.00%          | 0.80%          | 99.15%   |
+| Patch       | 9.80%          | 38.20%         | 79.76%   |
 
 **DenseNet-121 (Transferability):**
 
-| Attack Type | Top-1 Accuracy (%) | Top-5 Accuracy (%) |
-|-------------|---------------------|---------------------|
-| FGSM        | 40.00               | 69.60               |
-| PGD         | 32.00               | 68.40               |
-| Patch       | 61.60               | 85.60               |
+| Attack Type | Top-1 Accuracy | Top-5 Accuracy |
+|-------------|----------------|----------------|
+| No Attack   | 70.80%         | 91.20%         |
+| FGSM        | 40.00%         | 69.60%         |
+| PGD         | 32.00%         | 68.40%         |
+| Patch       | 61.60%         | 85.60%         |
 
 ## 🖼️ Visual Examples
 
