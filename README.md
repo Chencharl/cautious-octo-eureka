@@ -51,7 +51,7 @@ See:
 - `patch_examples.jpg`
 
 ## 📁 Files
-Project3_code.ipynb ← Complete pipeline (baseline, FGSM, PGD, Patch, transfer)\
+Project3_code.ipynb: script runs all core tasks of the project, from generating adversarial samples to evaluating model performance and transferability.
 
 
 ## ⚙️ Dependencies
