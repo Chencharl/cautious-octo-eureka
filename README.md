@@ -22,12 +22,12 @@ This project investigates the vulnerability of deep convolutional image classifi
 
 **ResNet-34:**
 
-| Attack Type | Top-1 Accuracy | Top-5 Accuracy | Drop     |
-|-------------|----------------|----------------|----------|
-| No Attack   | 75.39%         | 93.87%         | —        |
-| FGSM        | 3.00%          | 19.00%         | 96.02%   |
-| PGD         | 0.00%          | 0.80%          | 99.15%   |
-| Patch       | 9.80%          | 38.20%         | 79.76%   |
+| Attack Type | Top-1 Accuracy | Top-5 Accuracy |
+|-------------|----------------|----------------|
+| No Attack   | 75.39%         | 93.87%         | 
+| FGSM        | 3.00%          | 19.00%         |
+| PGD         | 0.00%          | 0.80%          |
+| Patch       | 9.80%          | 38.20%         |
 
 **DenseNet-121 (Transferability):**
 
